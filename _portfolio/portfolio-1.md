@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "A3C and DDPG robot picker"
+excerpt: "Using the A3C and DDPG RL algorithms made a robot pick up objects in a MuJoco environment. <br/><img src='/images/portfolio/A3C_mujoco.JPG'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+I trained both a DDPG and A3C models to pickup multi-shaped objects in a MuJoco environment. This project utilized skills in RL, MuJoco, Python, and the gym python library. The A3C model was trained on the CPU of the machine, while DDPG was trained on GPU. This is because the A3C uses multiple agents, so using asynchronous CPU training is better.
