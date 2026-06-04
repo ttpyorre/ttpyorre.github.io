@@ -23,7 +23,7 @@ repository               : "ttpyorre/ttpyorre.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/self-image.jpg"
+  avatar           : "self-image.jpg"
   name             : "Tuomas Pyorre"
   pronouns         : "He/Him" # example: "she/her"  
   bio              : "Robotics Software Engineer"
