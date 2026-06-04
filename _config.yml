@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Tuomas Pyorre"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Tuomas Pyorre"
+description              : &description "Tom's portfolio site"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://ttpyorre.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "ttpyorre/ttpyorre.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/self-image.jpg"
+  avatar           : "/images/self-image.jpg"
   name             : "Tuomas Pyorre"
   pronouns         : "He/Him" # example: "she/her"  
   bio              : "Robotics Software Engineer"
