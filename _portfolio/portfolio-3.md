@@ -1,6 +1,6 @@
 ---
 title: "LEMUR Project"
-excerpt: "My senior capstone project where as a team we made a curriculum to teach students about using ML in robotics. We won an honorary thing for capstone. <br/><img src='/images/portfolio/LEMUR.jpg'>"
+excerpt: "My senior capstone project where as a team we made a curriculum to teach students about using ML in robotics. We won an honorary thing for capstone. <br/><img src='/images/portfolio/LEMUR/LEMUR.jpg'>"
 collection: portfolio
 ---
 
