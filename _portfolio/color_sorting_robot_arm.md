@@ -4,8 +4,6 @@ excerpt: "Using classical vision techniques, had a physical robot arm pick up di
 collection: portfolio
 ---
 
-Overview
-
 As the capstone project for a robotics kinematics course, I developed a vision-guided robotic sorting system capable of identifying, locating, and sorting colored objects autonomously. The project integrated robotic kinematics, computer vision, coordinate transformations, and trajectory planning to create a complete pick-and-place solution.
 
 The system used a 3-degree-of-freedom robotic arm and an overhead camera to detect colored spheres on a checkerboard workspace, determine their real-world coordinates, and sort them into designated locations based on color.
