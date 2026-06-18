@@ -1,6 +1,6 @@
 ---
 title: "Romio and Julibot"
-excerpt: "With Romio (the robots are called romi's) and Julibot I made scenes from shakespeare be acted by three robots. In my Junior and Senior years I ended up being a student assistant for this class. <br/><img src='/images/portfolio/best_project.png'>"
+excerpt: "With Romio (the robots are called romi's) and Julibot I made scenes from shakespeare be acted by three robots. In my Junior and Senior years I ended up being a student assistant for this class. <br/><img src='/images/portfolio/romio_and_julibot/best_project.png'>"
 collection: portfolio
 ---
 
@@ -8,7 +8,7 @@ I did this project in a team of three, with (Leona) Nhi Nguyen, Theo Winter, and
 
 Due to the impact of COVID19, WPI Drama/Theatre shows are in need of actors due to the restrictions on public performances. And we brought back everyone’s favorite Shakesphere’s play : Romio and Julibot. With our three actors: Leona’s Romi as Romio, Tom’s Romi as Tybot and Julibot, and Theo’s Romi as Mercutibot and Fribot.
 
-<img src='/images/portfolio/best_project.png'>
+<img src='/images/portfolio/romio_and_julibot/best_project.png'>
 
 In this project we recreated three scenes from the play. The fight scene between Tybot and Mercutibot, where they both end up dying, balcony scene where Julibot climbs on the balcony and leaves Romio a message to ask him to follow her, and get married, and finally a curtain call. 
 
