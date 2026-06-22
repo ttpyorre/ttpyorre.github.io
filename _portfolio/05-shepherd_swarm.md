@@ -1,6 +1,6 @@
 ---
 title: "Shepherd Swarm"
-excerpt: "Made a swarm of sheeps and shepherds, where the shepherd agents collected all the sheep agents into a circle. Initial state of the world was randomized. <br/><img src='/images/portfolio/swarm/shepherd_and_sheep.png' <br/><img src='/images/portfolio/swarm/herding.png' >"
+excerpt: "Made a swarm of sheeps and shepherds, where the shepherd agents collected all the sheep agents into a circle. Initial state of the world was randomized. <br/><img src='/images/portfolio/swarm/shepherd_and_sheep.png'>"
 collection: portfolio
 ---
 
