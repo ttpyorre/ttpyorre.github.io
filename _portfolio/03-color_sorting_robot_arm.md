@@ -22,8 +22,6 @@ Forward and inverse kinematics were developed using Denavit-Hartenberg (DH) para
 
 Camera calibration was performed using MATLAB's calibration tools and checkerboard images captured from multiple angles. Intrinsic camera parameters were calculated to minimize reprojection error and accurately map image coordinates to physical space.
 
-<img src='/images/portfolio/color_sort/color_sort.JPG'>
-
 Extrinsic calibration was then used to determine the transformation between the camera coordinate frame and the robot base frame, enabling direct conversion from image pixels to robot task-space coordinates.
 
 <img src='/images/portfolio/color_sort/pixel_to_board.JPG'>
@@ -34,8 +32,6 @@ The vision pipeline included:
 - Color thresholding and masking
 - Circle detection using image-processing algorithms
 - Centroid extraction for object localization
-
-<img src='/images/portfolio/color_sort/blob.JPG'>
 
 The robot utilized quintic trajectory planning in joint space to generate smooth and continuous movements.
 
