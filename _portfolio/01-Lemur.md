@@ -1,6 +1,6 @@
 ---
 title: "LEMUR Project"
-excerpt: "My senior capstone project where as a team we made a curriculum to teach students about using ML in robotics. We won an honorary thing for capstone. <br/><img src='/images/portfolio/LEMUR/LEMUR.jpg'>"
+excerpt: "My senior capstone project where as a team we made a curriculum to teach students about using ML in robotics. We won a honorary mention in the award ceremony for best senior capstone projects in robotics. <br/><img src='/images/portfolio/LEMUR/LEMUR.jpg'>"
 collection: portfolio
 ---
 
@@ -10,7 +10,7 @@ The final product consisted of course materials, laboratory exercises, workshop 
 
 ## Problem
 
-While machine learning has become increasingly important in robotics, undergraduate students often learn the underlying theory without gaining practical experience applying these techniques to real robotic systems. Existing coursework provided theoretical foundations but offered limited exposure to:
+While machine learning has become increasingly important in robotics, undergraduate students often learn the underlying theory without gaining practical experience applying these techniques to real robotic systems. Existing coursework at WPI provided theoretical foundations but offered limited exposure to:
 
 - Deploying machine learning models on embedded hardware
 - Optimizing models for resource-constrained systems
