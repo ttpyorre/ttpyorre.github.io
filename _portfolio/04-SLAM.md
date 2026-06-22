@@ -1,6 +1,6 @@
 ---
 title: "SLAM Navigation"
-excerpt: "With turtlebots safely explored and mapped a maze, and afterwards localized after being \"kidnapped\". During my masters studies I also ended up being a teaching assistant for this class. <br/><img src='/images/portfolio/replace_SLAM.jpg'>"
+excerpt: "With TurtleBots, safely explored and mapped a maze, and afterwards localized after being \"kidnapped\". During my masters studies I also ended up being a teaching assistant for this class. <br/><img src='/images/portfolio/replace_SLAM.jpg'>"
 collection: portfolio
 ---
 
@@ -19,11 +19,11 @@ The project combined occupancy grid processing, configuration space generation, 
 
 ## Configuration Space Generation
 
-To safely navigate around obstacles, I implemented a configuration-space (C-space) expansion algorithm that inflated walls based on the TurtleBot's physical dimensions. This ensured that the turtlebot could safely navigate, and stop itself before attempting to go through too narrow of a path.
+To safely navigate around obstacles, I implemented a configuration-space (C-space) expansion algorithm that inflated walls based on the TurtleBot's physical dimensions. This ensured that the TurtleBot could safely navigate, and stop itself before attempting to go through too narrow of a path.
 
 Rather than repeatedly expanding every obstacle cell, the algorithm created a distinguishable outer layer around obstacles using a value of 99 while occupied cells retained a value of 100. Additional padding iterations only expanded cells marked as 99.
 
-As the TurtleBot had a max radius of 8cm that it could go through, the map resolution was set to 2.3cm/cell, with a padding radius of 4, giving an effective clearance of 9.2cm. This ensured that even if the sensor reading were faulty to a degree, the turtlebot could clear the path it tried to attempt to go through.
+As the TurtleBot had a max radius of 8cm that it could go through, the map resolution was set to 2.3cm/cell, with a padding radius of 4, giving an effective clearance of 9.2cm. This ensured that even if the sensor reading were faulty to a degree, the TurtleBot could clear the path it tried to attempt to go through.
 
 An additional wall-proximity cost layer was added to encourage paths that maintained greater distance from obstacles whenever possible.
 
