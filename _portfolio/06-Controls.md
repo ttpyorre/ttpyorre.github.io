@@ -4,7 +4,7 @@ excerpt: "Quadrotor control using the sliding mode control model. <br/><img src=
 collection: portfolio
 ---
 
-Designed and implemented a nonlinear control system for autonomous quadrotor(specifically Crazyflie 2.0) trajectory tracking in MATLAB. The project focused on generating smooth flight trajectories using quintic polynomial planning and developing a sliding mode controller capable of tracking three-dimensional position commands while accounting for the nonlinear dynamics of the aircraft. Following the initial simulation work, the trajectory generation and control framework were further implemented in Python using ROS.
+Designed and implemented a nonlinear control system for autonomous quadrotor (specifically Crazyflie 2.0) trajectory tracking in MATLAB. The project focused on generating smooth flight trajectories using quintic polynomial planning and developing a sliding mode controller capable of tracking three-dimensional position commands while accounting for the nonlinear dynamics of the aircraft. Following the initial simulation work, the trajectory generation and control framework were further implemented in Python using ROS.
 
 - Developed quintic trajectory generation algorithms to create smooth position, velocity, and acceleration profiles for quadrotor motion.
 - Generated and analyzed trajectory paths in the x, y, and z directions for multiple waypoints of different durations.
@@ -35,27 +35,20 @@ Here is a small table of the quadrotors physical parameters:
 
 The quadrotor state vector was modeled using translational and rotational states:
 
-\[
+$\[
 q = [x,\; y,\; z,\; \phi,\; \theta,\; \psi]
-\]
+\]$
 
 with control inputs corresponding to thrust and rotational commands:
 
-\[
+$\[
 u = [u_1,\; u_2,\; u_3,\; u_4]
-\]
+\]$
 
 A quintic polynomial trajectory planner was used to generate smooth reference trajectories with continuous position, velocity, and acceleration profiles. The controller utilized a sliding mode framework, incorporating saturation functions to mitigate chattering effects and improve stability. The resulting control architecture was later adapted to Python and integrated with ROS for robotic system development.
 
 ## Results
 
 The controller successfully guided the quadrotor along the desired vertical trajectory and demonstrated the ability to track reference positions. However, simulations revealed instability near the target position, where the vehicle overshot the desired waypoint and eventually diverged from the reference trajectory.
-
-Controller tuning parameters included:
-
-- **Kp = 85**
-- **Kd = 3**
-- **λ = [0, 0, 8, 14, 13, 6]**
-- **k = [0, 0, 14, 115, 100, 26]**
 
 Performance analysis suggested that the controller's instability could originate from model inaccuracies, implementation issues, or parameter tuning limitations. Extensive experimentation was conducted to evaluate each possibility and understand the sensitivity of the sliding mode controller to these parameters. After the experimentation and changes from it, the controller was finally successfull! 
