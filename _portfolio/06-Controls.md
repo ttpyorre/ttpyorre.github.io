@@ -35,15 +35,15 @@ Here is a small table of the quadrotors physical parameters:
 
 The quadrotor state vector was modeled using translational and rotational states:
 
-$\[
+\[
 q = [x,\; y,\; z,\; \phi,\; \theta,\; \psi]
-\]$
+\]
 
 with control inputs corresponding to thrust and rotational commands:
 
-$\[
+\[
 u = [u_1,\; u_2,\; u_3,\; u_4]
-\]$
+\]
 
 A quintic polynomial trajectory planner was used to generate smooth reference trajectories with continuous position, velocity, and acceleration profiles. The controller utilized a sliding mode framework, incorporating saturation functions to mitigate chattering effects and improve stability. The resulting control architecture was later adapted to Python and integrated with ROS for robotic system development.
 
