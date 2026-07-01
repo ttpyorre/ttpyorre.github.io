@@ -1,8 +1,10 @@
 ---
 title: "Robotic Arm MATLAB Library"
-excerpt: "Throughout a graduate level robotics class I made a robotics library that included core algorithms used in modern robot kinematics, dynamics, and motion planning. <br/><img src='/images/portfolio/color_sort/RBE3001_robot.JPG'>"
+excerpt: "Throughout a graduate level robotics class I made a robotics library that included core algorithms used in modern robot kinematics, dynamics, and motion planning. <br/><img src='/images/portfolio/arm_library/puma_560_tmp.png'>"
 collection: portfolio
 ---
+
+Current image is a temporary one from the robotics (toolbox)[https://petercorke.github.io/robotics-toolbox-python/intro.html] used for the project. 
 
 Throughout an advanced robotics course, I developed a comprehensive MATLAB library implementing the core algorithms used in modern robot kinematics, dynamics, and motion planning. The project served as a personal robotics toolkit, allowing me to model robotic systems, solve kinematic and dynamic problems, generate trajectories, and simulate robot motion from first principles.
 
